@@ -1,9 +1,18 @@
 [tool.poetry]
 name = "remarkable-highlights"
-version = "0.1.0"
+version = "0.1.1"
 description = "Extract highlights from PDFs exported from the reMarkable web interface."
 authors = ["Ben Longo <benlongo9807@gmail.com>"]
 license = "MIT"
+readme = "README.md"
+repository = "https://github.com/benlongo/remarkable-highlights"
+keywords = ["remarkable-tablet", "remarkable"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Topic :: Multimedia :: Graphics :: Graphics Conversion",
+    "Topic :: Utilities"
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
