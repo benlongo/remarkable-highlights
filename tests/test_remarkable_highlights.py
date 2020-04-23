@@ -1,7 +1,9 @@
-from remarkable_highlights import extract_highlights, WordSelectionMethod
-import fitz
 import os
+
+import fitz
 import pytest
+
+from remarkable_highlights import WordSelectionMethod, extract_highlights
 
 
 @pytest.fixture

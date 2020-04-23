@@ -1,1 +1,1 @@
-from .extract import extract_highlights, WordSelectionMethod
+from .extract import WordSelectionMethod, extract_highlights

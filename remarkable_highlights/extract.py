@@ -1,3 +1,6 @@
+import os
+import textwrap
+from collections import defaultdict
 from enum import Enum
 from functools import partial
 from itertools import chain, groupby
@@ -9,9 +12,6 @@ from shapely import ops
 from shapely.geometry import MultiPolygon, Polygon, box
 
 from .parsing import content_contains_highlight, highlighter_lines
-import os
-import textwrap
-from collections import defaultdict
 
 # TODO: Warn if highlights appear 'sloppy' mean diff from 100% area coverage on words?
 
